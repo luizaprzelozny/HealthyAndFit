@@ -1,0 +1,24 @@
+.hero {
+	background: url('../img/background_sm.jpg') no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 90vh;
+	padding: 25px 0;
+	text-align: center;
+}
+
+.hero-title {
+	padding-top: 7%;
+}
+
+.title {
+	color: $fontColor;
+	display: inline;
+	line-height: 2.2;
+	background-color: $backgroundColor;
+	box-shadow: -.4em -.4em 0 $backgroundColor,
+    .4em -.4em 0 $backgroundColor,
+  	-.4em .4em 0 $backgroundColor,
+    .4em .4em 0 $backgroundColor;
+}

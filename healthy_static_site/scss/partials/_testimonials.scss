@@ -1,0 +1,21 @@
+.testimonials {
+	text-align: center;
+	padding: 20px 0 40px 0;
+	img {
+		margin-bottom: 20px;
+	}
+	blockquote {
+		text-align: left;
+		border: none;
+		font-style: italic;
+		cite {
+			display: block;
+			color: $citeColor;
+			margin-top: 10px;
+			&:before {
+				content: '\2014';
+				margin-right: 5px;
+			}
+		}
+	}
+}

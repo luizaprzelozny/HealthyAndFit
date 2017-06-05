@@ -1,0 +1,50 @@
+// Typography
+
+body {
+	font-family: 'Roboto', Helvetica, sans-serif;
+}
+
+h2 {
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+a {
+	text-transform: uppercase;
+	color: $fontColor;
+	&:hover {
+		text-decoration: none;
+		color: $fontColor;
+		background-color: white;
+	}
+}
+
+.navbar-inverse .navbar-nav {
+	li { 
+		a {
+			&:hover {
+				color: $fontColor;
+				background-color: white;
+			}
+		}
+	}
+	.active {
+		a {
+			background-color: $titleColor;
+			&:hover, &:focus {
+				color: $fontColor;
+				background-color: $titleColor;
+			}
+		}
+	}
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+		background-color: $titleColor;
+}
+
+p.lead {
+	line-height: 1.5em;
+	margin: 0;
+	padding: 20px;
+}

@@ -1,0 +1,21 @@
+// Buttons
+button.btn, a.btn {
+	width: 200px;
+	margin-top: 20px;
+}
+
+.btn-danger {
+	background-color: transparent;
+	border-color: $titleColor;
+	color: $titleColor;
+	&:hover {
+		background-color: white;
+		color: $fontColor;
+	}
+	&:focus {
+		background-color: $titleColor;
+	}
+}
+
+
+

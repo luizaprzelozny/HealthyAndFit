@@ -1,0 +1,22 @@
+header {
+	height: 51px;
+	.header-img { 
+	width: 170px;
+	height: auto;
+	}
+}
+
+.navbar {
+	background-color: $backgroundColor;
+	.navbar-nav {
+		li {
+			a {
+				color: $fontColor;
+			}
+		}
+	}
+}
+
+.navbar-inverse {
+	border-color: #bababa;
+}

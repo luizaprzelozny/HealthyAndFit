@@ -1,0 +1,30 @@
+.contact {
+	background: url('../img/contact.jpg') 0 0;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	//background-repeat: no-repeat;
+	min-height: 200px;
+	padding: 50px;
+	h2 {
+		color: white;
+		display: inline;
+		line-height: 2.2;
+		background-color: $titleColor;
+		box-shadow: -.4em -.4em 0 $titleColor,
+    	.4em -.4em 0 $titleColor,
+  		 -.4em .4em 0 $titleColor,
+    	.4em .4em 0 $titleColor;
+	}
+	a 	{
+		&:hover {
+			background-color: transparent;
+		}
+		.fa {
+			font-size: 3.5em;
+			margin-top: 12px;
+		}
+	}
+}
+
+

@@ -1,0 +1,19 @@
+.newsletter {
+	padding: 20px 0;
+	background-color: $titleColor;
+	color: white;
+	.btn {
+		border-color: white;
+		color: white;
+		&:hover {
+			color: $fontColor;
+		}
+	}
+}
+.success_send, .error_send {
+	display: none;
+}
+
+.show {
+	display: inline;
+}
